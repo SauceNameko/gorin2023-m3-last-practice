@@ -1,0 +1,36 @@
+.field-1 {
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    grid-template-rows: repeat(5, 60px);
+}
+
+.field-2 {
+    display: grid;
+    grid-template-columns: repeat(7, 60px);
+    grid-template-rows: repeat(7, 60px);
+}
+
+.none {
+    background-image: url(../images/floor01.png);
+    background-size: 100%;
+}
+
+.wall {
+    background-image: url(../images/wall01.png);
+
+}
+
+.player {
+    background-image: url(../images/player01.gif);
+
+}
+
+.block {
+    background-image: url(../images/block01.png);
+
+}
+
+.flag {
+    background-image: url(../images/flag01.gif);
+
+}
